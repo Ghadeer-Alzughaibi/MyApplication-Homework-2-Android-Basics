@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="193dp"
+        android:layout_height="29dp"
+        android:text="Ghadeer Alzughaibi"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="559dp"
+        android:layout_height="234dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageFilterView2"
+        app:srcCompat="@drawable/_wlstzp"
+        tools:layout_editor_absoluteX="-89dp" />
+
+    <androidx.constraintlayout.helper.widget.Layer
+        android:id="@+id/layer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView2"
+        android:layout_width="115dp"
+        android:layout_height="118dp"
+        app:srcCompat="@drawable/profile2_c33be21f"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView4"
+        android:layout_width="31dp"
+        android:layout_height="29dp"
+        app:srcCompat="@drawable/settings"
+        tools:layout_editor_absoluteX="359dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView5"
+        android:layout_width="45dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/download"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView6"
+        android:layout_width="45dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/download_icon_shopping_icon_1320166903096401017_512"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purchases"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textColor="@color/Red"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@Ghadeer_Alzughaibi"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView7"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        app:srcCompat="@drawable/_07822"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView8"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/download_icon_arrow_left_chevron_chevronleft_left_left_icon_icon_1320185731545502691_512"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
